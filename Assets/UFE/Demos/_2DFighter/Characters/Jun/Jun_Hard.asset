@@ -15,7 +15,7 @@ MonoBehaviour:
   gameplayType: 0
   profilePictureSmall: {fileID: 2800000, guid: 2833e2cb745ca4042971bbcdcad13090, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 34617caae267b364bb539cee05612a02, type: 3}
-  characterName: JUN
+  characterName: "\u041C\u0410\u041A\u0421"
   gender: 1
   characterDescription: 'Project: Fighter 3D
 

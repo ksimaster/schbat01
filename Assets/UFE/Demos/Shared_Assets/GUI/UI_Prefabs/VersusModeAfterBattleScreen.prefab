@@ -173,7 +173,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c861d57f1ab170d43aa7290abee08742, type: 3}
+    m_Font: {fileID: 12800000, guid: af48c1c9230c73d41b805215ef260e53, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -185,7 +185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "SELECCI\xD3N ESCENARIO"
+  m_Text: "\u0412\u042B\u0411\u041E\u0420 \u0422\u0418\u041F\u0410 \u0411\u041E\u042F"
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c861d57f1ab170d43aa7290abee08742, type: 3}
+    m_Font: {fileID: 12800000, guid: af48c1c9230c73d41b805215ef260e53, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -530,7 +530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "SELECCI\xD3N PERSONAJES"
+  m_Text: "\u0412\u042B\u0411\u041E\u0420 \u041F\u0415\u0420\u0421\u041E\u041D\u0410\u0416\u0415\u0419"
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c861d57f1ab170d43aa7290abee08742, type: 3}
+    m_Font: {fileID: 12800000, guid: af48c1c9230c73d41b805215ef260e53, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -609,7 +609,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: REPETIR PELEA
+  m_Text: "\u041F\u041E\u0412\u0422\u041E\u0420\u0418\u0422\u042C \u0411\u041E\u0419"
 --- !u!1 &100012
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c861d57f1ab170d43aa7290abee08742, type: 3}
+    m_Font: {fileID: 12800000, guid: af48c1c9230c73d41b805215ef260e53, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -896,7 +896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: MENU PRINCIPAL
+  m_Text: "\u0413\u041B\u0410\u0412\u041D\u041E\u0415 \u041C\u0415\u041D\u042E"
 --- !u!1 &100018
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: DISTRITO
+    stageName: "\u0417\u0410 \u0417\u0410\u0411\u041E\u0420\u041E\u041C"
     stageLoadingMethod: 0
-    stagePath: 
-    screenshot: {fileID: 2800000, guid: 0206f7788a936504ea9fef227be03587, type: 3}
-    prefab: {fileID: 100000, guid: e76a2ddcb709d734b8e263d0d9ada407, type: 3}
-    music: {fileID: 0}
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
+    screenshot: {fileID: 2800000, guid: 702f64d620f51f74aae51966110fa66f, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -51539607552
+      _serializedValue: -64424509440
     _rightBoundary:
-      _serializedValue: 51539607552
+      _serializedValue: 68719476736
     position:
       x:
         _serializedValue: 0
@@ -46,28 +46,29 @@ MonoBehaviour:
   gameName: Recess Rumble
   gameplayType: 0
   selectedLanguage:
-    languageName: English
-    start: Start
-    options: Options
-    credits: Credits
-    selectYourCharacter: Select Your Character
-    selectYourStage: Select Your Stage
-    round: Round %round%
-    finalRound: Final Round
-    fight: Fight!
-    firstHit: First Hit!
-    combo: '%combo% hit combo!'
-    parry: Parry!
-    counterHit: Counter!
-    victory: '%character% wins!'
-    challengeBegins: Start!
-    challengeEnds: Success!
-    timeOver: Time Over
-    perfect: Perfect!
-    rematch: Rematch
-    quit: Quit
-    ko: K.O.
-    draw: Draw
+    languageName: Russian
+    start: "\u041D\u0430\u0447\u0430\u043B\u0438"
+    options: "\u041C\u0435\u043D\u044E"
+    credits: "\u0422\u0438\u0442\u0440\u044B"
+    selectYourCharacter: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    selectYourStage: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043C\u0435\u0441\u0442\u043E"
+    round: "\u0420\u0430\u0443\u043D\u0434 %round%"
+    finalRound: "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0440\u0430\u0443\u043D\u0434"
+    fight: "\u0411\u043E\u0439!"
+    firstHit: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0434\u0430\u0440!"
+    combo: "%combo% \u0443\u0434\u0430\u0440\u043E\u0432 \u0432 \u043A\u043E\u043C\u0431\u043E!"
+    parry: "\u041E\u0442\u0440\u0430\u0437\u0438\u043B!"
+    counterHit: "\u041E\u0442\u0432\u0435\u0442\u043D\u044B\u0439!"
+    victory: "\u041F\u043E\u0431\u0435\u0434\u0430! %character% \u043B\u0443\u0447\u0448\u0435
+      \u0432\u0441\u0435\u0445!"
+    challengeBegins: "\u041D\u0430\u0447\u0430\u043B\u0438!"
+    challengeEnds: "\u0423\u0441\u043F\u0435\u0448\u043D\u043E!"
+    timeOver: "\u0412\u0440\u0435\u043C\u044F \u0432\u044B\u0448\u043B\u043E!"
+    perfect: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E!"
+    rematch: "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u044B\u0439 \u0431\u043E\u0439!"
+    quit: "\u0412\u044B\u0445\u043E\u0434"
+    ko: "\u041A\u043E\u043D\u0435\u0446 \u0434\u0440\u0430\u043A\u0438!"
+    draw: "\u041D\u0438\u0447\u044C\u044F"
     defaultSelection: 1
   gameGUI:
     hasGauge: 1
@@ -323,7 +324,7 @@ MonoBehaviour:
   executionBufferType: 0
   plinkingDelay: 2
   _preloadingTime:
-    _serializedValue: 4294967296
+    _serializedValue: 0
   preloadStage: 0
   preloadHitEffects: 0
   warmAllShaders: 0
@@ -337,28 +338,29 @@ MonoBehaviour:
   foregroundSortLayer: 200
   backgroundSortLayer: 100
   languages:
-  - languageName: English
-    start: Start
-    options: Options
-    credits: Credits
-    selectYourCharacter: Select Your Character
-    selectYourStage: Select Your Stage
-    round: Round %round%
-    finalRound: Final Round
-    fight: Fight!
-    firstHit: First Hit!
-    combo: '%combo% hit combo!'
-    parry: Parry!
-    counterHit: Counter!
-    victory: '%character% wins!'
-    challengeBegins: Start!
-    challengeEnds: Success!
-    timeOver: Time Over
-    perfect: Perfect!
-    rematch: Rematch
-    quit: Quit
-    ko: K.O.
-    draw: Draw
+  - languageName: Russian
+    start: "\u041D\u0430\u0447\u0430\u043B\u0438"
+    options: "\u041C\u0435\u043D\u044E"
+    credits: "\u0422\u0438\u0442\u0440\u044B"
+    selectYourCharacter: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    selectYourStage: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043C\u0435\u0441\u0442\u043E"
+    round: "\u0420\u0430\u0443\u043D\u0434 %round%"
+    finalRound: "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0440\u0430\u0443\u043D\u0434"
+    fight: "\u0411\u043E\u0439!"
+    firstHit: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0434\u0430\u0440!"
+    combo: "%combo% \u0443\u0434\u0430\u0440\u043E\u0432 \u0432 \u043A\u043E\u043C\u0431\u043E!"
+    parry: "\u041E\u0442\u0440\u0430\u0437\u0438\u043B!"
+    counterHit: "\u041E\u0442\u0432\u0435\u0442\u043D\u044B\u0439!"
+    victory: "\u041F\u043E\u0431\u0435\u0434\u0430! %character% \u043B\u0443\u0447\u0448\u0435
+      \u0432\u0441\u0435\u0445!"
+    challengeBegins: "\u041D\u0430\u0447\u0430\u043B\u0438!"
+    challengeEnds: "\u0423\u0441\u043F\u0435\u0448\u043D\u043E!"
+    timeOver: "\u0412\u0440\u0435\u043C\u044F \u0432\u044B\u0448\u043B\u043E!"
+    perfect: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E!"
+    rematch: "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u044B\u0439 \u0431\u043E\u0439!"
+    quit: "\u0412\u044B\u0445\u043E\u0434"
+    ko: "\u041A\u043E\u043D\u0435\u0446 \u0434\u0440\u0430\u043A\u0438!"
+    draw: "\u041D\u0438\u0447\u044C\u044F"
     defaultSelection: 1
   deploymentOptions:
     deploymentType: 0
@@ -1112,7 +1114,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1252,7 +1254,7 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 7
   stages:
-  - stageName: AZOTEA
+  - stageName: "\u0417\u0410 \u0417\u0410\u0411\u041E\u0420\u041E\u041C"
     stageLoadingMethod: 0
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
     screenshot: {fileID: 2800000, guid: 702f64d620f51f74aae51966110fa66f, type: 3}
@@ -1271,7 +1273,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: ENTRADA
+  - stageName: "\u0423 \u0412\u041E\u0420\u041E\u0422"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: 694510c8ade150e479748853a0b7bbec, type: 3}
@@ -1290,7 +1292,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: 5B
+  - stageName: "\u0412 \u041A\u041B\u0410\u0421\u0421\u0415"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
@@ -1309,7 +1311,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: 'CAFE '
+  - stageName: "\u0412 \u041A\u0410\u0424\u0415"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
@@ -1328,7 +1330,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: "BA\xD1OS"
+  - stageName: "\u0412 \u0422\u0423\u0410\u041B\u0415\u0422\u0415"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: ab3cd21feaca021499d98f59a209911c, type: 3}
@@ -1347,7 +1349,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: ARCADE
+  - stageName: "\u0412 \u0422\u0426"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: d7d32d9ed69e11a4394d40104177a9ca, type: 3}
@@ -1366,7 +1368,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: DOJO
+  - stageName: "\u041D\u0410 \u041A\u0410\u0420\u0410\u0422\u0415"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: fa9f2c8d8761bcf489f55cec127399f2, type: 3}
@@ -1385,7 +1387,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: DISTRITO
+  - stageName: "\u041D\u0410 \u0420\u0410\u0419\u041E\u041D\u0415"
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: 0206f7788a936504ea9fef227be03587, type: 3}
@@ -1397,25 +1399,6 @@ MonoBehaviour:
       _serializedValue: -51539607552
     _rightBoundary:
       _serializedValue: 51539607552
-    position:
-      x:
-        _serializedValue: 0
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
-  - stageName: BLOCKEADO
-    stageLoadingMethod: 2
-    stagePath: 
-    screenshot: {fileID: 2800000, guid: 8564c95b009dd4d46b14a29a632bb148, type: 3}
-    prefab: {fileID: 0}
-    music: {fileID: 0}
-    _groundFriction:
-      _serializedValue: 429496729600
-    _leftBoundary:
-      _serializedValue: -163208757248
-    _rightBoundary:
-      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -1878,7 +1861,7 @@ MonoBehaviour:
     synchronizationAction: 1
   music: 0
   musicVolume: 1
-  soundfx: 0
+  soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
