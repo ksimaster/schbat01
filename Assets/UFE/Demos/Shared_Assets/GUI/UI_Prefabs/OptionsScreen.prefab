@@ -73,7 +73,7 @@ MonoBehaviour:
   aiEngineName: {fileID: 11457252}
   debugModeToggle: {fileID: 0}
   changeControlsButton: {fileID: 11400024}
-  cancelButton: {fileID: 4615014668255094083}
+  cancelButton: {fileID: 0}
   sliderSpeed: 0.1
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
