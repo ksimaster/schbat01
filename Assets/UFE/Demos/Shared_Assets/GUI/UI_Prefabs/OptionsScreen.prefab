@@ -64,7 +64,7 @@ MonoBehaviour:
   onLoadSound: {fileID: 0}
   music: {fileID: 8300000, guid: dffbccc03e5b50643bd30fbd48823535, type: 3}
   musicToggle: {fileID: 11497622}
-  musicTogglePausa: {fileID: 0}
+  musicTogglePausa: {fileID: 11497622}
   musicSlider: {fileID: 11400036}
   soundToggle: {fileID: 11405088}
   soundSlider: {fileID: 11400064}
@@ -73,7 +73,7 @@ MonoBehaviour:
   aiEngineName: {fileID: 11457252}
   debugModeToggle: {fileID: 0}
   changeControlsButton: {fileID: 11400024}
-  cancelButton: {fileID: 0}
+  cancelButton: {fileID: 4615014668255094083}
   sliderSpeed: 0.1
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -592,7 +592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -214, y: 159}
+  m_AnchoredPosition: {x: 430, y: 158}
   m_SizeDelta: {x: 436, y: 90}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &22200016
