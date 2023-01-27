@@ -62,8 +62,8 @@ MonoBehaviour:
   cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
   moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   onLoadSound: {fileID: 0}
-  music: {fileID: 8300000, guid: dffbccc03e5b50643bd30fbd48823535, type: 3}
-  musicToggle: {fileID: 11497622}
+  music: {fileID: 0}
+  musicToggle: {fileID: 0}
   musicTogglePausa: {fileID: 11497622}
   musicSlider: {fileID: 11400036}
   soundToggle: {fileID: 11405088}
