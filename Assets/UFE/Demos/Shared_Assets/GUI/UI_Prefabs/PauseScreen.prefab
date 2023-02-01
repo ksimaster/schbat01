@@ -562,7 +562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22400012
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.67, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1145,8 +1145,8 @@ RectTransform:
   m_Father: {fileID: 22400026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.67, y: 0}
+  m_AnchorMax: {x: 0.67, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1538,19 +1538,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400056}
-        m_TargetAssemblyTypeName: DefaultOptionsScreen, Assembly-CSharp
-        m_MethodName: SetMusicVolume
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400036}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!1 &100040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,7 +1617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u0443\u0437\u044B\u043A\u0430"
+  m_Text: "\u0417\u0412\u0423\u041A"
 --- !u!1 &100042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,19 +1855,7 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400056}
-        m_TargetAssemblyTypeName: DefaultOptionsScreen, Assembly-CSharp
-        m_MethodName: ToggleMusic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   m_IsOn: 0
 --- !u!222 &22200040
 CanvasRenderer:
@@ -1955,7 +1931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31, y: 0.65}
   m_AnchorMax: {x: 0.69, y: 0.85}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -130}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200036
@@ -2215,6 +2191,7 @@ GameObject:
   - component: {fileID: 22200046}
   - component: {fileID: 11400056}
   - component: {fileID: 22500006}
+  - component: {fileID: 1057807479939135064}
   m_Layer: 5
   m_Name: OptionsScreen
   m_TagString: Untagged
@@ -2267,22 +2244,22 @@ MonoBehaviour:
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
-  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
-  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
+  selectSound: {fileID: 0}
+  cancelSound: {fileID: 0}
+  moveCursorSound: {fileID: 0}
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
   musicToggle: {fileID: 0}
-  musicTogglePausa: {fileID: 11400050}
-  musicSlider: {fileID: 11400036}
-  soundToggle: {fileID: 11400010}
-  soundSlider: {fileID: 11400034}
+  musicTogglePausa: {fileID: 0}
+  musicSlider: {fileID: 0}
+  soundToggle: {fileID: 0}
+  soundSlider: {fileID: 0}
   difficultySlider: {fileID: 0}
   difficultyName: {fileID: 0}
   aiEngineName: {fileID: 0}
   debugModeToggle: {fileID: 0}
-  changeControlsButton: {fileID: 11400066}
-  cancelButton: {fileID: 11400060}
+  changeControlsButton: {fileID: 0}
+  cancelButton: {fileID: 0}
   sliderSpeed: 0.1
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -2298,6 +2275,20 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1057807479939135064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeee12baf39621a48bb3c5027328856b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundCheck: {fileID: 100046}
+  soundSlider: {fileID: 11400036}
 --- !u!1 &100056
 GameObject:
   m_ObjectHideFlags: 0

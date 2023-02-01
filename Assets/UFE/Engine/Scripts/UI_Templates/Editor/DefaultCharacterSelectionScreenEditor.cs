@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
 using System.Collections.Generic;
@@ -60,3 +61,4 @@ public class DefaultCharacterSelectionScreenEditor : Editor{
 		this.serializedObject.ApplyModifiedProperties();
 	}
 }
+#endif

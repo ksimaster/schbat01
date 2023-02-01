@@ -4,7 +4,7 @@
 // Public domain, do with whatever you like, commercial or not
 // This comes with no warranty, use at your own risk!
 // https://github.com/handcircus/Unity-Resource-Checker
-
+#if UNITY_EDITOR
 using System;
 using System.Linq;
 using UnityEngine;
@@ -1070,3 +1070,4 @@ public class ResourceChecker : EditorWindow {
 	}
 
 }
+#endif
