@@ -34,7 +34,6 @@ public class MuteSoundPRO : MonoBehaviour
     public void SoundSliderChanger()
     {
         PlayerPrefs.SetFloat("SoundSlider", soundSlider.value);
-        Debug.Log(PlayerPrefs.GetFloat("SoundSlider"));
     }
 
 }
