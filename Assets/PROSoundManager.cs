@@ -13,7 +13,8 @@ public class PROSoundManager : MonoBehaviour
     }
     private void Update()
     {
-       SoundCheck();
+        //SoundCheck();
+        
        SoundSliderCheck();
     }
     public void SoundCheck()
@@ -33,5 +34,29 @@ public class PROSoundManager : MonoBehaviour
         Debug.Log(AudioListener.volume);   
     }
 
-   
+    private void OnApplicationFocus(bool focus)
+    {
+        SoundCheck();
+        if (focus)
+        {
+            AudioListener.pause = false;
+        }
+        else
+        {
+            AudioListener.pause = true;
+        }
+    }
+
+    public void OnApplicationPause(bool pause)
+    {
+        SoundCheck();
+        if (!pause)
+        {
+            AudioListener.pause = false;
+        }
+        else
+        {
+            AudioListener.pause = true;
+        }
+    }
 }

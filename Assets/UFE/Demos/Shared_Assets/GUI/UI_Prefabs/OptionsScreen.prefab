@@ -1401,7 +1401,7 @@ RectTransform:
   - {fileID: 22400036}
   - {fileID: 22400032}
   m_Father: {fileID: 22432458}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2767,17 +2767,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145784}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
-  m_Father: {fileID: 22476084}
-  m_RootOrder: 1
+  m_Father: {fileID: 22432458}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 130, y: 0}
-  m_SizeDelta: {x: -84.7438, y: 0}
+  m_AnchoredPosition: {x: 94.14502, y: 31.000023}
+  m_SizeDelta: {x: -589.6355, y: -103.9}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &22244974
 CanvasRenderer:
@@ -2814,7 +2814,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 6
     m_MaxSize: 100
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -2839,7 +2839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22476084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2852,14 +2852,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22483044}
-  - {fileID: 22466728}
   m_Father: {fileID: 22432458}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -423.9999, y: 31}
-  m_SizeDelta: {x: 422.8, y: 76.1}
+  m_SizeDelta: {x: 446.6544, y: 76.1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &11497622
 MonoBehaviour:
@@ -3285,6 +3284,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
+  - {fileID: 22466728}
   - {fileID: 22476084}
   - {fileID: 22400038}
   m_Father: {fileID: 22400004}
